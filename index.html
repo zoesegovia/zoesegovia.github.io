@@ -5,25 +5,66 @@
     <meta charset="utf-8">
     <title>index</title>
     <style>
-    #sec1{font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(255, 176, 138);}
-    #sec2{font-family:'Times New Roman', Times, serif;
+    #sec1{
+    background-color: rgb(255, 255, 153);}
+    #sec2{
     background-color: rgb(230, 252, 255);}
-    #sec3{font-family:Verdana, Geneva, Tahoma, sans-serif;
+    #sec3{
     background-color:rgb(195, 239, 220);}
+    #sec4{
+    background-color: rgb(255, 179, 102);}
+
     h2{text-align:center}
+
+
+    .lic{  border-style: ridge;
+             border-width: 3px;
+             border-color: rgb(38, 77, 0);
+             border-radius:0%;
+             
+                background-color: rgb(204, 255, 153);
+                color: black;
+                padding: 14px 25px;
+                margin-bottom: 14px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;}
+
+        .bot{
+          background-color: #f44336;
+          color: white;
+          padding: 14px 25px;
+          text-align: right;
+          text-decoration: none;
+          display: inline-block;}
+
+        .bot:hover{
+          background-color: black;}
+
     </style>
 </head>
 
 <body>
-    <p>
+<div id="sec1"> <br>
         <h1>Mi trabajo en TIC II Zoe Segovia Escribano</h1>
-<div id="sec1">
-        <br>Me llamo Zoe Segovia Escribano. Actualmente estudio segundo de bachiller en el Ies Fleming, en la clase
+
+        <h2>Enlace a todas las secciones de mi página</h2>
+        <ol>
+			<li ><a href="#sec2"class="lic">Ejercicios introducción a html</a></li>
+			<li ><a href="#sec3"class="lic">Mis ejercicios css:</a></li>
+			<li ><a href="#sec4"class="lic">Mis ejercicios de más etiquetas</a></li>
+		</ol>
+
+<br>
+        <p>
+        Me llamo Zoe Segovia Escribano. Actualmente estudio segundo de bachiller en el Ies Fleming, en la clase
         2ºC1. Me gustaría estudiar una ingenieria, tal vez telecomunicaciones.
         <br>Este sitio web lo utilizaré para poner los ejercios sobre los que he trabajado en la asignatura de TIC
-</div>
-<div id="sec2">
+        </p>
+        
+
+<br></div>
+<div id="sec2"><br>
         <h2>Mis ejercicios introducción html:</h2>
         <ul>
             <li><a href="html-ejerc1-intro.html">Ejercicio 1</a></li>
@@ -34,8 +75,9 @@
             <li><a href="html-ejerc6-img.html">Ejercicio 6</a></li>
             <li><a href="html-ejerc7-animales-peligro-extinción.html">Ejercicio 7</a></li>
         </ul>
-</div>
-<div id="sec3">
+       <a href="#sec1"class="bot">Volver al inicio</a>
+<br></div>
+<div id="sec3"><br>
         <h2>Mis ejercicios css:</h2>
         <ul>
             <li><a href="html-ejerc8-color.html">Ejercicio 8</a></li>
@@ -48,7 +90,20 @@
             <li><a href="html-ejerc15-selectores.html">Ejercicio 15</a></li>
             <li><a href="html-ejer16.html">Ejercicio 16</a></li>
         </ul>
-</div>
+        <a href="#sec1"class="bot">Volver al inicio</a>
+<br></div>
+
+<div id="sec4"><br>
+        <h2>Mis ejercicios de más etiquetas:</h2>
+        <ul>
+            <li><a href="html-ejerc18-vinculos.html">Ejercicio 18</a></li>
+            <li><a href="html-ejerc19-vinculos_internos.html">Ejercicio 19</a></li>
+            <li><a href="html-ejerc20-tabla.html">Ejercicio 20</a></li>           
+            <li><a href="html-ejerc21-proeycto_recetas.html">Ejercicio 21</a></li>
+        
+        </ul>
+        <a href="#sec1"class="bot" >Volver al inicio</a>
+<br></div>
 </body>
 
 
