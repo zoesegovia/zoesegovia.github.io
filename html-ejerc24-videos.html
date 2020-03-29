@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Videos</title>
+        <style>
+        
+        *{margin: 5px;
+        background-color: #befea9;
+        font-family: sans-serif, serif;}
+
+         a{         background-color: #FFFFFF;
+                    color: black;
+                    padding: 14px 25px;
+                    border: 2px solid #4CAF50;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    transition-duration: 0.2s;
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+
+        a:hover{    background-color: #4CAF50;  }   
+
+        .title{     padding: 10px;
+                    height: 100%;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #367c39;
+                    color: #FFFFFF;}
+        .title:hover {background: #FFFFFF;
+                    color:#367c39;
+                    transition-duration: 0.2s;}
+
+        .t2:hover{color: #004d00;
+                font-size: 40px;}
+
+        video, iframe{  display:block; 
+                        margin-left: auto; 
+                        margin-right: auto; 
+                        display: table-cell; 
+                        vertical-align: middle;}
+        </style>
+    </head>
+
+
+    <body>
+
+        <a href="#videos_propios">Vidios propios</a>
+        <a href="#videos_no_propios">Videos de youtube</a>
+
+    <div id="videos_propios">
+        <h1 class="title">Videos grabados por mi</h1>
+
+        <h1 class="t2">Descansar</h1>
+            <p>Una de las actividades que más tiempo ocupa a los perros, ya sea de día o de noche es no hacer nada, descansar tumbados, tomando el sol siempre que pueden y por mucho que estemos en cuarentena eso no cambia</p>
+            <video width="500"  controls> <source src="videos/nada.mp4" type="video/mp4"> </video>
+        
+        <h1 class="t2">Jugar</h1>
+            <p>Lo que más les gusta a los perros es jugar y recibir atención</p>
+            <video width="500"  controls> <source src="videos/jugar.mp4" type="video/mp4"> </video>
+
+        <h1 class="t2">Saltar</h1>
+            <p>Algunos perros adoran saltar y cuando les lanzas la comida al aire no pueden esperar y la tratan de atrapan lo antes posible, otros, sin embargo, muestran total indiferencia</p>
+            <video width="500"  controls> <source src="videos/saltar.mp4" type="video/mp4"> </video>
+
+        <h1 class="t2">Correr</h1>
+            <p>A los perros les encanta recibir la antención de sus amos, asi que si pronuncias su nombre no dudaran en ir corriendo hacia tí</p>
+            <video width="500"  controls> <source src="videos/correr.mp4" type="video/mp4"> </video>
+       
+        <h1 class="t2">Comer</h1>
+            <p>Una de las actividades que realizan los perros diaramente, al igual que nosotros es comer</p>
+            <video width="500"  controls> <source src="videos/comer.mp4" type="video/mp4"> </video>
+                <br>
+    </div>
+
+    <div id="videos_no_propios">
+        <h1 class="title">Videos de youtube</h1>
+
+        <p>La vida de nuestros perros no se ha visto muy alterada por la cuarentena, pues siguen teniendo el mismo prado para jugar, pero la de estos perros si que se ha vuelto completamente distinta</p>
+
+        <p>Este perro por ejemplo, se ha quedado sin poder ir al parque como quería y esta fue su reacción:</p>
+        <iframe width="500" src="https://www.youtube.com/embed/LBYID5Nwnvo"></iframe>
+
+        <p>Algunos aprovechan el tiempo libre que les deja la cuarentena para hacer videos divertidos con esta temática</p>
+        <iframe width="500" src="https://www.youtube.com/embed/xTtSFVoMejA"></iframe>   
+
+        <p>Hay algunos que tal es su miedo por la epidemia que no se atreben ni a pasear a su perro. Pero como este necesita su paseo, recurren a la tecnológia para que lleve a cabo esta misión: </p>
+        <iframe width="500" src="https://www.youtube.com/embed/DgNlpWMhDiE"></iframe>
+    </div>
+    </body>
+</html>
